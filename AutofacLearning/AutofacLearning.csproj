@@ -44,6 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coordinates\Coordinate.cs" />
+    <Compile Include="Coordinates\ICoordinate.cs" />
     <Compile Include="Movables\ConsoleWalk.cs" />
     <Compile Include="Movables\IMove.cs" />
     <Compile Include="Robot\IRobot.cs" />

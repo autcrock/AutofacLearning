@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Movables
+namespace AutofacLearning.Movables
 {
     public class ConsoleWalk : IMove {
         public void Moving (string movementType) {

@@ -1,4 +1,4 @@
-﻿namespace Robot
+﻿namespace AutofacLearning.Robot
 {
     public interface IRobot
     {

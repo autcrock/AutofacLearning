@@ -1,10 +1,10 @@
-﻿using Movables;
+﻿using AutofacLearning.Movables;
 
-namespace Robot
+namespace AutofacLearning.Robot
 {
     public class IronRobot : IMove, IRobot
     {
-        private IMove _move;
+        private readonly IMove _move;
 
         public IronRobot(IMove move)
         {

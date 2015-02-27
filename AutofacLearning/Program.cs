@@ -1,7 +1,7 @@
 ﻿using System;
 using Autofac;
-using Movables;
-using Robot;
+using AutofacLearning.Movables;
+using AutofacLearning.Robot;
 
 namespace AutofacLearning
 {
@@ -9,7 +9,7 @@ namespace AutofacLearning
     {
         private static IContainer Container { get; set; }
 
-        static void Main(string[] args)
+        static void Main()
         {
             var builder = new ContainerBuilder();
 
